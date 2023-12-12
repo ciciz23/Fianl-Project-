@@ -2,15 +2,15 @@
 //     document.querySelector("#menu-1").classList.toggle("show");
 //   })
 
-document.querySelector("#about-button").addEventListener("click", function () {
-  document.querySelector("#about-menu").classList.toggle("show");
-});
+// document.querySelector("#about-button").addEventListener("click", function () {
+//   document.querySelector("#about-menu").classList.toggle("show");
+// });
 
-document
-  .querySelector("#inspiration-button")
-  .addEventListener("click", function () {
-    document.querySelector("#inspiration-menu").classList.toggle("show");
-  });
+// document
+//   .querySelector("#inspiration-button")
+//   .addEventListener("click", function () {
+//     document.querySelector("#inspiration-menu").classList.toggle("show");
+//   });
 
 const fullName = document.querySelector("#full-name");
 
