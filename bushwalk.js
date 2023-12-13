@@ -25,7 +25,7 @@ fullName.addEventListener("input", (event) => {
 });
 
 password.addEventListener("input", (event) => {
-  if (password.validity.typeMismatch || fullName.value.trim() === "") {
+  if (password.validity.typeMismatch || password.value.trim() === "") {
     password.setCustomValidity("please type your password!");
   } else {
     password.setCustomValidity("");
@@ -33,7 +33,7 @@ password.addEventListener("input", (event) => {
 });
 
 email.addEventListener("input", (event) => {
-  if (email.validity.typeMismatch || fullName.value.trim() === "") {
+  if (email.validity.typeMismatch || email.value.trim() === "") {
     email.setCustomValidity(
       "I am expecting an email address! E.g. email@gmail.com"
     );
